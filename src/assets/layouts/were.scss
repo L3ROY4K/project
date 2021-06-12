@@ -1,0 +1,23 @@
+#carouselExampleCaptions{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    font-family: 'Oswald', sans-serif;
+}
+.carousel-caption{
+    h5{
+        text-shadow: 0 2px 3px rgba(0, 0, 0, 1);
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        line-height: 1.3;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+    a{
+        margin: 5px;
+    }
+    img{
+        height: 30px;
+        width: 30px;
+    }
+}

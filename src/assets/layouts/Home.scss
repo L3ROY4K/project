@@ -1,0 +1,49 @@
+.home{
+    background: url(../images/bg/HomeBG.jpeg) no-repeat scroll center top / cover;
+    background-attachment: fixed;
+    height: 810px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+}
+.homeContent{
+    &__title{
+    color: $primary;
+    display: block;
+    left: 25%;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 2;
+     h1{
+        color: $primary;
+        font-family: Oswald;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        line-height: 1.3;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+     }
+    }
+    &__botton{
+    color: #fff;
+    background: #333 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 13px 15px;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out 0s;
+    text-decoration: none;
+     &:hover{
+        background-color: #dedede;
+        color: $primary;
+     }
+    }
+
+}

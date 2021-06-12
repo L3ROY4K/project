@@ -1,0 +1,52 @@
+.footer{
+    color: #fff;
+    padding: 75px 0;
+    &_bg{
+        background-color: $footer;
+    }
+    &__logobox{
+        img{
+            width: 81px;
+            height: 80px;
+        }
+        padding-bottom: 25px;
+        margin-left: 40px;
+    }
+    &__socials,
+    &__list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    &__social{
+        margin-right: 15px;
+        &:last-child{
+            margin-right: 0;
+        }
+        text-align: center;
+    }
+    &__link{
+        color: #fff;
+        text-decoration: none;
+    }
+    &__pic{
+        width: 30px;
+        height: 29px;
+    }
+    &__title{
+        font-size: 24px;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+    }
+    &__item{
+        margin-bottom: 15px;
+    }
+}
+.mail__link{
+    width: 180px;
+}
